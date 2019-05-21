@@ -9,7 +9,8 @@
 [SerializeField][SerializeReference("Node/Image")] protected Image m_Image
 ```
 以下の親子関係にあるImageオブジェクトにアタッチされているImageコンポーネントへの参照をm_Imageにセットします。
-```Parent
+```
+Parent
 └Node
 　└Image
 ```
