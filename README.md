@@ -1,14 +1,15 @@
 # UnitySerializeReference
-### g‚¢•û
-- SerializeReferenceEditor.cs ‚ğUnityƒvƒƒWƒFƒNƒg‚ÌEditorƒtƒHƒ‹ƒ_‚É”z’u‚µ‚Ä‚­‚¾‚³‚¢B
-- SerializeReferenceEditor.cs ‚Ì16s–Ú‚Ì MonoBehaviourEx ƒNƒ‰ƒX‚ğASerializeReference‹@”\‚ğg‚¢‚½‚¢ƒNƒ‰ƒX‚É“K‹X‘‚«Š·‚¦‚Ä‚­‚¾‚³‚¢B
-- ‚¢‚¸‚ê‚©‚ÌƒRƒ“ƒ|[ƒlƒ“ƒgƒXƒNƒŠƒvƒg‚ÉAAttribute: SerializeReference(path) ‚ğ‚à‚ÂGameObject‚Ü‚½‚ÍƒRƒ“ƒ|[ƒlƒ“ƒgŒ^‚ÌƒtƒB[ƒ‹ƒh‚ğ’è‹`‚µ‚Ä‚­‚¾‚³‚¢B
-- Hierarchyã‚Åª‚ÌƒXƒNƒŠƒvƒg‚ªƒAƒ^ƒbƒ`‚³‚ê‚½ƒIƒuƒWƒFƒNƒg‚ğ‘I‘ğ‚µAShift+RƒL[‚ğ‰Ÿ‚·‚ÆQÆ‚ğ©“®‚ÅƒZƒbƒg‚µ‚Ü‚·B
-- —á‚¦‚ÎAˆÈ‰º‚Ì‚æ‚¤‚ÈƒtƒB[ƒ‹ƒh‚ğ‚à‚ÂƒXƒNƒŠƒvƒg‚ªƒAƒ^ƒbƒ`‚³‚ê‚½ƒIƒuƒWƒFƒNƒgParent‚ğ‘I‘ğ‚µ‚ÄShift+R‚ğ‰Ÿ‚·‚ÆA
-```[SerializeField][SerializeReference("Node/Image")] protected Image m_Image
+### ä½¿ã„æ–¹
+- SerializeReferenceEditor.cs ã‚’Unityãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®Editorãƒ•ã‚©ãƒ«ãƒ€ã«é…ç½®ã—ã¦ãã ã•ã„ã€‚
+- SerializeReferenceEditor.cs ã®16è¡Œç›®ã® MonoBehaviourEx ã‚¯ãƒ©ã‚¹ã‚’ã€SerializeReferenceæ©Ÿèƒ½ã‚’ä½¿ã„ãŸã„ã‚¯ãƒ©ã‚¹ã«é©å®œæ›¸ãæ›ãˆã¦ãã ã•ã„ã€‚
+- ã„ãšã‚Œã‹ã®ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚¹ã‚¯ãƒªãƒ—ãƒˆã«ã€Attribute: SerializeReference(path) ã‚’ã‚‚ã¤GameObjectã¾ãŸã¯ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆå‹ã®ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’å®šç¾©ã—ã¦ãã ã•ã„ã€‚
+- Hierarchyä¸Šã§â†‘ã®ã‚¹ã‚¯ãƒªãƒ—ãƒˆãŒã‚¢ã‚¿ãƒƒãƒã•ã‚ŒãŸã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’é¸æŠã—ã€Shift+Rã‚­ãƒ¼ã‚’æŠ¼ã™ã¨å‚ç…§ã‚’è‡ªå‹•ã§ã‚»ãƒƒãƒˆã—ã¾ã™ã€‚
+- ä¾‹ãˆã°ã€ä»¥ä¸‹ã®ã‚ˆã†ãªãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰ã‚’ã‚‚ã¤ã‚¹ã‚¯ãƒªãƒ—ãƒˆãŒã‚¢ã‚¿ãƒƒãƒã•ã‚ŒãŸã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆParentã‚’é¸æŠã—ã¦Shift+Rã‚’æŠ¼ã™ã¨ã€
 ```
-ˆÈ‰º‚ÌeqŠÖŒW‚É‚ ‚éImageƒIƒuƒWƒFƒNƒg‚ÉƒAƒ^ƒbƒ`‚³‚ê‚Ä‚¢‚éImageƒRƒ“ƒ|[ƒlƒ“ƒg‚Ö‚ÌQÆ‚ğm_Image‚ÉƒZƒbƒg‚µ‚Ü‚·B
+[SerializeField][SerializeReference("Node/Image")] protected Image m_Image
+```
+ä»¥ä¸‹ã®è¦ªå­é–¢ä¿‚ã«ã‚ã‚‹Imageã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã«ã‚¢ã‚¿ãƒƒãƒã•ã‚Œã¦ã„ã‚‹Imageã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã¸ã®å‚ç…§ã‚’m_Imageã«ã‚»ãƒƒãƒˆã—ã¾ã™ã€‚
 ```Parent
-„¤Node
-@„¤Image
+â””Node
+ã€€â””Image
 ```
